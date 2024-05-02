@@ -3,5 +3,34 @@
   padding: 0;
   margin: 0;
 }
+:root {
+  --secondary-color: cornsilk;
+}
 
-/* Start coding here */
+:root {
+  --level-padding: 20px;
+}
+
+:root {
+  --branding-color: #ff7f50;
+}
+
+:root {
+  --tripleExtraLarge-font: 100px;
+}
+
+.introduction {
+  color: var(--secondary-color);
+}
+
+.introduction {
+  padding: var(--level-padding);
+}
+
+h1 {
+  color: var(--branding-color);
+}
+
+h1 {
+  font: var(--tripleExtraLarge-font);
+}
