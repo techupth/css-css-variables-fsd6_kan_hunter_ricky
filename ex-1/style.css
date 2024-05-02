@@ -22,6 +22,20 @@
   margin: var(--margin-tripleExtraLarge);
 }
 
-h1{
-  color: var(--secondary-color);
+:root {
+  --secondary-color: cornsilk;
+  --level5-padding: 20px;
+  --branding-color: #ff7f50;
+  --tripextralarge-size: 100px  
+
+}
+
+.introduction {
+  background-color: var(--secondary-color);
+  padding: var(--level5-padding);
+}
+
+h1 {
+  color: var(--branding-color);
+  font-size: var(--tripextralarge-size);
 }
