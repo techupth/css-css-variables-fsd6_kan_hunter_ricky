@@ -1,7 +1,27 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
+}
+:root{
+  --primary-color:cornsilk;
 }
 
-/* Start coding here */
+:root{
+  --secondary-color:#ff7f50;
+}
+:root{
+  --padding-level5:20px;
+}
+:root{
+  --margin-tripleExtraLarge:100px
+}
+.introduction{
+  background-color: var(--primary-color);
+  padding: var(--padding-level5);
+  margin: var(--margin-tripleExtraLarge);
+}
+
+h1{
+  color: var(--secondary-color);
+}
