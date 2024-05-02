@@ -1,4 +1,4 @@
-* {
+assign ment 2 .css * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -20,7 +20,7 @@
 }
 
 .introduction {
-  color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .introduction {
@@ -32,5 +32,5 @@ h1 {
 }
 
 h1 {
-  font: var(--tripleExtraLarge-font);
+  font-size: var(--tripleExtraLarge-font);
 }
